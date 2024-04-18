@@ -1,4 +1,4 @@
-# PI_FATEC_2024_1Semestre
+# PI_FATEC_2024_1ºSemestre
 Primeiro projeto do meu grupo na Faculdade de Tecnologia "FATEC ARARAS"
 
 ## Objetivo
@@ -13,3 +13,8 @@ Qualidade de Educação
 ***
 [Adinam Conte Cardozo](https://github.com/AdinamConte)
 ***
+[Davi Bonelli Rodrigues](https://github.com/DaviBonelli)
+***
+[João Pedro Pereira dos Santos](https://github.com/jp8002)
+***
+[Vitor Eduardo de Barros Marciano](https://github.com/VitorMarciano001)
