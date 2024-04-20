@@ -18,3 +18,5 @@ Qualidade de Educação
 [João Pedro Pereira dos Santos](https://github.com/jp8002)
 ***
 [Vitor Eduardo de Barros Marciano](https://github.com/VitorMarciano001)
+***
+[Gustavo Francisco Habermann](https://github.com/gustavofhabermann)
