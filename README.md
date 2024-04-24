@@ -12,13 +12,13 @@ Qualidade de Educação
 O site que pensamos é inspirado pela didática do Duolingo, em que é apresentado uma "estrada" de aprendizado, porém o duolingo é apenas para linguagem, já o nosso site é para matérias escolhares como: Matemática, Português, Ciências, Geografia, História, Inglês.
 <br><br>
 No ínicio o aluno deverá escolher qual matéria ele irá aprimorar,com a escolha da matéria, o site criará uma prova para ver o nível de conhecimento do aluno/cadastrado, direcionando para a dificuldade recomendada.
-<br>
+<br><br>
 Essa prova terá 10 perguntas, alternadas entre: fácil, médio e difícil. Com isso o site irá direcionar o aluno para o nível coerente com a nota.
-<br>
+<br><br>
 No nível alocado o aluno irá encontrar diversos materiais de apoio como: vídeos, execícios e imagens.
-<br>
+<br><br>
 Para o aluno avançar de nível, ele precisará fazer uma prova com o conhecimento adquirido no nível, a prova terá 10 questões e para o aluno passar ele precisará acertar 6 questões de 10.
-<br>
+<br><br>
 <hr>
 
 
