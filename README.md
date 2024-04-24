@@ -10,7 +10,7 @@ Qualidade de Educação
 
 ## Ideias
 O site que pensamos é inspirado pela didática do Duolingo, em que é apresentado uma "estrada" de aprendizado, porém o duolingo é apenas para linguagem, já o nosso site é para matérias escolhares como: Matemática, Português, Ciências, Geografia, História, Inglês.
-<br>
+<br><br>
 No ínicio o aluno deverá escolher qual matéria ele irá aprimorar,com a escolha da matéria, o site criará uma prova para ver o nível de conhecimento do aluno/cadastrado, direcionando para a dificuldade recomendada.
 <br>
 Essa prova terá 10 perguntas, alternadas entre: fácil, médio e difícil. Com isso o site irá direcionar o aluno para o nível coerente com a nota.
