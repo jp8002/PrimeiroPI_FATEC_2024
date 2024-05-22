@@ -1,1 +1,0 @@
-Nessa pasta vai ficar todos os nossos diagramas, desde diagrama de caso de uso, diagrama de atividade, etc.
