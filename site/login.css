@@ -1,0 +1,42 @@
+body{
+    background-color: #002299;
+}
+
+form {
+    width: 480px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+#mx-auto #mt-5{
+    margin-top: 15rem !important;
+}
+
+.btn-light{
+    margin-left: 12%;
+    width: 75%;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+
+.form-control{
+    color: black;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: 5px 8px grey;
+}
+
+#emailHelp{
+    margin-left: 60%;
+}
+
+
+
+@media only screen and (max-width:500px){
+    form{
+        width: 100%;
+    }
+}
