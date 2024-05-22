@@ -1,0 +1,11 @@
+
+#materia{
+    text-align: center;
+    width: 95%;
+    color: aliceblue;
+    border: 0.5px solid black;
+    background-color:dodgerblue;
+}
+.card{
+    border: none;
+}
