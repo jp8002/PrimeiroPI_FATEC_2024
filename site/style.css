@@ -1,62 +1,29 @@
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Karma", sans-serif
+    font-family: "Karma", sans-serif;
+    background-color: rgb(47, 109, 56);
 }
-
 
 .navbar{
   visibility: collapse;
 }
 
-
-
 * {
   margin: 0;
 }
-ul {
-  height: 100%;
-  width: 102px;
-  background-color:rgb(5, 36, 212);
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  }
-  
-  li a {
-    text-decoration: none;
-    display: block;
-    width: 60px;
-    color:orange;
-    padding: 25%;
-  }
-.about{
-  display: flex;
-  text-align: center;
-  
-}
-.teste{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 #nav {
-  float: left;
-}
-li a:hover {
-  background-color: orange;
-  color:rgb(5, 36, 212);
-}
+    float: left;
+    height: 100%;
+    width: 100px;
+  }
 
-* {
-  margin: 0;
-}
-  
 ul {
-  height: 100%;
-  width: 100px;
   background-color: rgb(5, 36, 212);
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  min-height: 100%;
+  width: 100px;
+  position: absolute ;
 }
   
 li a {
@@ -65,34 +32,36 @@ li a {
   width: 60px;
   color: orange;
   padding: 20%;
+  text-align: center;
 }
   
-.about {
+.baixo {
   display: flex;
   text-align: center;
   text-decoration: none;
   display: block;
-  width: 60px;
   color: orange;
-  padding: 20%;
-  
 }
   
 .teste {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-  
-#nav {
-  float: left;
+ 
 }
   
 li a:hover,.about:hover {
-  background-color: orange;
+  background-color: rgb(255, 141, 27);
   color: rgb(5, 36, 212);
 }
 
+.cabecalho{
+    border-bottom: 2px solid rgb(255, 161, 20) ;
+    text-align: center;
+    padding: 5px;
+
+    background-color: white;
+}
 @media only screen and (max-width:689px) {
   #nav{
     display: none;
