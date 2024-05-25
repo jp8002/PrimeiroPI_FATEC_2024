@@ -1,3 +1,4 @@
+
 .row{
     height: 100%;
 }
@@ -22,9 +23,4 @@ img{
     
     padding-left: 12%;
     padding-right: 12%;
-}
-
-.card-img-top{
-    height: 176px;
-    width: 467px;
 }
