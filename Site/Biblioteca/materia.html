@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,17 +6,18 @@
     <title>Biblioteca</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://kit.fontawesome.com/cc7beb20bf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../NavBar/css.css">
     <link rel="stylesheet" href="./materia.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 <body>
   <div class="row">
-    <div id="nav" class="col-1">
+    <!-- Criação da barra lateral -->
+    <div id="nav">
       <ul class="teste">
           <div>
-              <li><a href="#home"><buttom class="botao">Home</buttom></a></li>
+              <li><a href="#home">Home</a></li>
               <hr>
               <li><a href="#news">News</a></li>
               <hr>
@@ -26,28 +27,55 @@
               <hr>
           </div>
 
-          <div class="about">
-              <li><a href="#about">About</a></li>
+          <div class="baixo">
+              <li><a href="#about">baixo</a></li>
           </div>
       </ul>
-    </div>
+  </div>
 
-    <nav class=" mx-auto navbar fixed-bottom navbar-light bg-light" >
-            <a href="#home" class="fa-solid fa-house-user fa-2x"></a>
-            <a href="#home" class="fa-solid fa-book item fa-2x"></a>
-            <a href="#home" class="fa-solid fa-plus item fa-2x"></a>
-            <a href="#home" class="fa-solid fa-gear item fa-2x"></a>
+    <!-- Criação da barra inferior -->
+    <nav class=" mx-auto navbar fixed-bottom navbar-light " >
+      <div class="icones">
+            <a href="#home" class="fa-solid fa-house-user fa-2x" style="color: #cc4700;"></a>
+            <a href="#home" class="fa-solid fa-book item fa-2x" style="color: #cc4700;"></a>
+            <a href="#home" class="fa-solid fa-plus item fa-2x" style="color: #cc4700;"></a>
+        </div>
+            <div class="final">
+            <a href="#home" class="fa-solid fa-gear item fa-2x" style="color: #cc4700;"></a>
+          </div>
     </nav>
       
-    <div class=" col-10">
-      <div id="materia" class="mx-auto">
-        <h1 >Matéria</h1>
-    </div>
-    </div>
-        
-  </div>
-  
+    <div class=" col-10 mx-auto align-content">
+      <div id="icon">
+        <img src="../imagens/xicara-de-cafe-quente-com-coracoes.png" class="rounded mx-auto d-block">
+      </div>
 
+      <div>
+        <p id="materia" class="mx-auto">MATÉRIAS</p>
+      </div>
+
+      <div>
+        <div class="card-deck">
+          <div class="card border-dark rounded">
+            <div class="card-body">
+              <i class="fa-solid fa-calculator fa-10x" style="float: left;"></i>
+              <p class="card-text"> Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+            </div>
+          </div>
+
+          <div class="card border-dark rounded">
+            <img class="card-img-top" src="../imagens/bitmap.png">
+            <div class="card-body">
+              <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  
+  
     
       
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

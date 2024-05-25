@@ -35,7 +35,7 @@ ul {
 li a {
     text-decoration: none;
     display: block;
-    width: 60px;
+    width: 100%;
     color: orange;
     padding: 20%;
     text-align: center;
@@ -49,6 +49,7 @@ li a {
     color: orange;
 }
 
+
 .teste {
     display: flex;
     flex-direction: column;
@@ -60,6 +61,7 @@ li a:hover,
 .about:hover {
     background-color: rgb(255, 141, 27);
     color: rgb(5, 36, 212);
+    text-decoration: none;
 }
 
 .cabecalho {
@@ -71,13 +73,22 @@ li a:hover,
 }
 
 @media only screen and (max-width:689px) {
+    
     #nav {
         display: none;
     }
 
     .navbar {
+        background-color: blue;
         visibility: visible;
-        width: 280px;
-        border-radius: 50%;
+        width: 100%;    
+        padding: 0;  
+    }
+    .icones .fa-solid{
+        margin-right: 20px;
+    }
+    .final{
+        right: 0;
+        justify-content: space-between; 
     }
 }
