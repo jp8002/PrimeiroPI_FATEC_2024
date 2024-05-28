@@ -1,4 +1,3 @@
-
 .row{
     height: 100%;
 }
@@ -13,14 +12,27 @@ img{
     margin-top: 81px;
     width: 35%;
     font-size: 250%;
-    color: aliceblue;
-    border-radius: 38px;
-    border: 0.5px solid black;
-    background-color:dodgerblue;
     margin-bottom: 81px;;
 }
-.card-deck{
-    
-    padding-left: 12%;
-    padding-right: 12%;
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15%;
 }
+
+.flex-container p{
+    font-size: 26px;
+}
+
+.card{
+    background-color: red;
+}
+
+@media (max-width: 1629px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
