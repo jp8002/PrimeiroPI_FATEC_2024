@@ -16,6 +16,7 @@ h6 {
     margin: 0;
 }
 
+
 #nav {
     float: left;
     height: 100vh;
@@ -23,7 +24,7 @@ h6 {
 }
 
 ul {
-    background-color: rgb(5, 36, 212);
+    background-color: rgb(5, 36, 212,0.05);
     list-style-type: none;
     padding: 0;
     min-height: 100%;
@@ -36,7 +37,7 @@ li a {
     text-decoration: none;
     display: block;
     width: 100%;
-    color: orange;
+    color: #cc4700;
     padding: 15%;
     text-align: center;
 }
@@ -60,7 +61,7 @@ li a {
 li a:hover,
 .about:hover {
     background-color: rgb(255, 141, 27);
-    color: rgb(5, 36, 212);
+    color: #333;
     text-decoration: none;
     border-radius: 0px 10px 10px 0px;
 }
@@ -72,7 +73,7 @@ li a:hover,
     background-color: white;
 }
 
-@media only screen and (max-width:689px) {
+@media only screen and (max-width:768px) {
     
     #nav {
         display: none;
