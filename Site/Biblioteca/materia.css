@@ -1,19 +1,29 @@
-.row{
-    height: 100%;
+/*ESTILIZAÇÃO DA PÁGINA*/
+
+body{
+    background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) !important;
+    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
+    
 }
 
+
+/*Controla ao proporções da imagem*/
 img{
     width: 102px;
     height: 89px;
 }
+
+/*Ajusta a posiçao do texto*/
 #materia{
     text-align: center;
     font-weight: bolder;
     margin-top: 81px;
     font-size: 250%;
     margin-bottom: 81px;;
+    color: aliceblue;
 }
 
+/*Ajuste dos ELementos dos cards*/
 .flex-container{
     display: flex;
     flex-direction: row;
@@ -25,32 +35,80 @@ img{
     font-size: 26px;
 }
 
-.card{
-    background-color: red;
-}
+/*Interação dos cards com o mouse*/
 .card:hover{
     opacity: 0.6;
     cursor: pointer;
 }
+
+.card {
+    width: 30%;
+}
+.card-deck{
+    column-gap: 5%;
+}
+
+
+
+/*RESPONSIVIDADE*/
+
+/*Se a tela for menor que 1629 pixels*/
 @media (max-width: 1629px) {
     .flex-container {
       flex-direction: column;
     }
+
   }
 
+/*Se a tela for menor que 768 pixels*/
+@media screen and (max-width: 768px) {
+.card {
+    width: 47.5%;
+}
+.card-deck{
+    column-gap: 5%;
+}
 
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 47.5%;
+body{
+    background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) !important;
+    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
+    
+}
+}
+
+/*Se a tela for menor que 576 pixels*/
+@media screen and (max-width: 576px) {
+.card {
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(to bottom,#455280 15%, #333 15%)!important;
+    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
+    
+}
+
+}
+
+
+/*ANIMAÇÕES*/
+
+/*Configura animação do ícone da metéria*/
+/* @media screen and (min-width:1629px){
+    .card:hover p {
+        display: none;
     }
-    .card-deck{
-        column-gap: 5%;
+    
+    .card:hover .fa-solid{
+        position: relative;
+        animation-name: example;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .card {
-      width: 100%;
+    
+    @keyframes example {
+        from {left: 0px;}
+        to {left: 335px;}
     }
-   
-  }
+
+} */
