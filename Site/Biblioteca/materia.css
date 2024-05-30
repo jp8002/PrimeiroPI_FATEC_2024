@@ -2,28 +2,10 @@
 
 body{
     background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) ;
-    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
     
 }
 
-.lightMode{
-    background: radial-gradient(circle at 1629px, #cc4700, #cc4700 70%, #eeee 30%) ;
-    
-}
 
-.lightMode ul{
-    background-color:hsl(21, 100%, 40%, 0.1);
-
-}
-
-.lightMode li a:hover,
-.about:hover,
-button:hover {
-    background-color: #455280;
-    color: #eeee;
-    text-decoration: none;
-    border-radius: 0px 10px 10px 0px;
-}
 
 /*Controla ao proporções da imagem*/
 img{
@@ -66,22 +48,43 @@ img{
     column-gap: 5%;
 }
 
-.fa-moon:hover{
-    opacity: 0.6;
-}
-
-.fa-sun:hover{
-    opacity: 0.6;
-}
-
-#tema-claro{
-    display: none;
-}
-
 .alinhamentok {
     margin-left: 35%; 
     margin-right: 22%;
 }
+
+/*Interação de mudança de tema*/
+
+
+.lightMode{
+    background: radial-gradient(circle at 1629px, #cc4700, #cc4700 70%, #eeee 30%) ;
+    
+}
+
+.lightMode ul{
+    background-color:hsl(21, 100%, 40%, 0.1);
+
+}
+
+.lightMode li a, .lightMode #icone-claro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #455280 ;
+    padding: 15%;
+    text-align: center;
+}
+
+.lightMode li a:hover,
+.about:hover, #icone-claro:hover{
+    background-color: #455280;
+    color: #eeee;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
 /*RESPONSIVIDADE*/
 
 /*Se a tela for menor que 1629 pixels*/
@@ -107,7 +110,6 @@ img{
 
     body{
         background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) ;
-        /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
         
     }
 
@@ -128,10 +130,10 @@ img{
 
     body{
         background: linear-gradient(to bottom,#455280 15%, #333 15%);
-        /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
         
     }
 
+    /*Interação de mudança de tema*/
     .lightMode{
         background: linear-gradient(to bottom, #cc4700, #cc4700 15%, #eeee 15%) ;
         
