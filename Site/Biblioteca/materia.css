@@ -1,11 +1,29 @@
 /*ESTILIZAÇÃO DA PÁGINA*/
 
 body{
-    background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) !important;
+    background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) ;
     /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
     
 }
 
+.lightMode{
+    background: radial-gradient(circle at 1629px, #cc4700, #cc4700 70%, #eeee 30%) ;
+    
+}
+
+.lightMode ul{
+    background-color:hsl(21, 100%, 40%, 0.1);
+
+}
+
+.lightMode li a:hover,
+.about:hover,
+button:hover {
+    background-color: #455280;
+    color: #eeee;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
 
 /*Controla ao proporções da imagem*/
 img{
@@ -48,8 +66,22 @@ img{
     column-gap: 5%;
 }
 
+.fa-moon:hover{
+    opacity: 0.6;
+}
 
+.fa-sun:hover{
+    opacity: 0.6;
+}
 
+#tema-claro{
+    display: none;
+}
+
+.alinhamentok {
+    margin-left: 35%; 
+    margin-right: 22%;
+}
 /*RESPONSIVIDADE*/
 
 /*Se a tela for menor que 1629 pixels*/
@@ -57,58 +89,54 @@ img{
     .flex-container {
       flex-direction: column;
     }
-
+    
   }
 
 /*Se a tela for menor que 768 pixels*/
 @media screen and (max-width: 768px) {
-.card {
-    width: 47.5%;
-}
-.card-deck{
-    column-gap: 5%;
-}
+    .card {
+        width: 47.5%;
+    }
 
-body{
-    background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) !important;
-    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
-    
-}
+    .card-deck{
+        column-gap: 5%;
+    }
+    .alinhamentok {
+        margin: 0 0 0 0;
+    }
+
+    body{
+        background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) ;
+        /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
+        
+    }
+
+    .lightMode{
+        background: radial-gradient(circle at center top, #cc4700, #cc4700 40%, #eeee 30%) ;
+        
+    }
 }
 
 /*Se a tela for menor que 576 pixels*/
 @media screen and (max-width: 576px) {
-.card {
-    width: 100%;
-}
-
-body{
-    background: linear-gradient(to bottom,#455280 15%, #333 15%)!important;
-    /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
-    
-}
-
-}
-
-
-/*ANIMAÇÕES*/
-
-/*Configura animação do ícone da metéria*/
-/* @media screen and (min-width:1629px){
-    .card:hover p {
-        display: none;
+    .card {
+        width: 100%;
     }
-    
-    .card:hover .fa-solid{
-        position: relative;
-        animation-name: example;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
-    
-    @keyframes example {
-        from {left: 0px;}
-        to {left: 335px;}
+    .alinhamentok {
+        
     }
 
-} */
+    body{
+        background: linear-gradient(to bottom,#455280 15%, #333 15%);
+        /*background: radial-gradient(circle at 100%, #D1DBFF, #D1DBFF 70%, #333 30%) !important;*/
+        
+    }
+
+    .lightMode{
+        background: linear-gradient(to bottom, #cc4700, #cc4700 15%, #eeee 15%) ;
+        
+    }
+
+}
+
+
