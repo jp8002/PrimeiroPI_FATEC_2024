@@ -6,74 +6,35 @@ h4,
 h5,
 h6 {
     font-family: "Karma", sans-serif;
-    background-color: rgb(85, 85, 85);
+    background-color: #333;
 }
 
-.navbar {
-    visibility: collapse;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-#nav {
-    float: left;
-    height: 100vh;
-    width: 100px;
-}
-
-ul {
-    background-color: rgb(5, 36, 212);
-    list-style-type: none;
-    padding: 0;
-    min-height: 100%;
-    width: 80px;
-    position: fixed;
-    border-radius: 0px 10px 10px 0px;
-}
-
-li a {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    color: orange;
-    padding: 15%;
-    text-align: center;
-}
-
-.baixo {
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: orange;
-}
-
-
-.teste {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-li a:hover,
-.about:hover {
-    background-color: rgb(255, 141, 27);
-    color: rgb(5, 36, 212);
-    text-decoration: none;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.cabecalho {
-    border-bottom: 2px solid rgb(255, 161, 20);
-    text-align: center;
-    padding: 5px;
+.card {
+    margin: 30px;
+    margin-left: 7%;
     background-color: white;
+    height: 700px;
+    border-radius: 20px;
 }
-
+.card h1{
+    text-align: center;
+    background-color: white;
+    border-bottom: #333;
+    font-size: 32px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+.card img{
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border-radius: 100px;
+}
+.card p{
+    font-size: 18px;
+    text-align: justify;
+    text-align: center;
+}
 .carousel-inner{
     height: 500px;
     display: inline-block;
@@ -87,34 +48,4 @@ li a:hover,
     align-content: center;
     margin-left: 115px;
     margin-top: 50px;
-}
-
-@media only screen and (max-width:689px) {
-    
-    #nav {
-        display: none;
-    }
-
-    .navbar {
-        background-color: blue;
-        visibility: visible;
-        width: 100%;   
-        height: 50px; 
-        padding: 0;
-        border-radius: 10px 10px 10px 10px;
-
-    }
-    .icones .fa-solid:hover,
-    .final:hover {
-        border-left: 2px solid rgb(255, 161, 20);
-        border-right: 2px solid rgb(255, 161, 20);
-        text-decoration: none;
-    }
-    .icones .fa-solid{
-        margin-right: 20px;
-    }
-    .final{
-        right: 0;
-        justify-content: space-between; 
-    }
 }

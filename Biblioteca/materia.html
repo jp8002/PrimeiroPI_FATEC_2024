@@ -26,7 +26,8 @@
         </div>
 
         <div class="baixo">
-            <li></li>
+            <li><i onclick="darkMode()" class="fa-solid fa-sun fa-2x" id="icone-claro"></i></li>
+            <li><i onclick="lightMode()" class="fa-solid fa-moon fa-2x" id="icone-escuro"></i> </li>
             <li><a href="#home" class="fa-solid fa-gear item fa-2x"></a></li>
         </div>
     </ul>
@@ -45,6 +46,7 @@
   </nav>
   
   <div class="row">
+    <!--Criação dos cards de matéria-->
     <div class=" col-10 mx-auto align-content">
       <div id="icon">
         <img src="../imagens/xicara-de-cafe-quente-com-coracoes.png" class="rounded mx-auto d-block">
@@ -172,38 +174,11 @@
   
       
     </div>
-    <div class="col-1" id="tema-escuro">
-      <i onclick="lightMode()" class="fa-solid fa-moon fa-2x" ></i>
-    </div>
-
-    <div class="col-1" id="tema-claro">
-      <i onclick="darkMode()" class="fa-solid fa-sun fa-2x" style="color:#eeee;"></i>
-    </div>
   </div>
-  
-  
-  
-<script>
-    function lightMode() {
-        var element = document.body;
-        var escuro = document.getElementById("tema-escuro");
-        var claro = document.getElementById("tema-claro");
-        element.classList.add("lightMode");
-        escuro.style.display="none";
-        claro.style.display="inline"
-    }
 
-    function darkMode(){
-      var element = document.body;
-      var escuro = document.getElementById("tema-escuro");
-      var claro = document.getElementById("tema-claro");
-      element.classList.remove("lightMode");
-      escuro.style.display="inline";
-      claro.style.display="none"
-    }
-  </script>
-    
-      
+
+
+    <script src="../scripts/nosso.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
