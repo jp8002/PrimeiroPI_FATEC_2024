@@ -1,0 +1,110 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karma", sans-serif;
+}
+
+.navbar {
+    visibility: collapse;
+}
+
+* {
+    margin: 0;
+}
+
+
+#nav {
+    float: left;
+    height: 100vh;
+    width: 100px;
+}
+
+ul {
+    background-color: rgba(5, 37, 214, 0.051);
+    list-style-type: none;
+    padding: 0;
+    min-height: 100%;
+    width: 80px;
+    position: fixed;
+    border-radius: 0px 10px 10px 0px;
+}
+
+li a, #icone-escuro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #cc4700 ;
+    padding: 15%;
+    text-align: center;
+}
+
+
+
+.baixo {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#icone-claro{
+    display: none;
+}
+
+
+li a:hover,
+.about:hover, #icone-escuro:hover {
+    background-color: rgb(255, 141, 27);
+    color: #333;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.cabecalho {
+    border-bottom: 2px solid rgb(255, 161, 20);
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+
+@media only screen and (max-width:768px) {
+    
+    #nav {
+        display: none;
+    }
+
+    .navbar {
+        background-color: blue;
+        visibility: visible;
+        width: 100%;   
+        height: 50px; 
+        padding: 0;
+        border-radius: 10px 10px 10px 10px;
+
+    }
+    .icones .fa-solid:hover,
+    .final:hover {
+        border-left: 2px solid rgb(255, 161, 20);
+        border-right: 2px solid rgb(255, 161, 20);
+        text-decoration: none;
+    }
+    .icones .fa-solid{
+        margin-right: 20px;
+    }
+    .final{
+        right: 0;
+        justify-content: space-between; 
+    }
+}
