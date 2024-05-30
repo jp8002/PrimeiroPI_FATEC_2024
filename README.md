@@ -6,7 +6,7 @@ Criar um modelo de página web utilizando as linguagens de programação HTML e 
 tudo o que aprendemos nesse primeiro semestre do curso, usando um pouco do que aprendemos de cada matéria para criar o projeto.
 
 <h2>Tema</h2> 
-Qualidade de Educação
+Educação de Qualidade 
 
 ## Ideias
 O site que pensamos é inspirado pela didática do Duolingo, em que é apresentado uma "estrada" de aprendizado, porém o duolingo é apenas para linguagem, já o nosso site é para matérias escolhares como: Matemática, Português, Ciências, Geografia, História, Inglês.

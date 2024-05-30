@@ -1,0 +1,144 @@
+/*ESTILIZAÇÃO DA PÁGINA*/
+
+body{
+    background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) ;
+    
+}
+
+
+
+/*Controla ao proporções da imagem*/
+img{
+    width: 102px;
+    height: 89px;
+}
+
+/*Ajusta a posiçao do texto*/
+#materia{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 81px;
+    font-size: 250%;
+    margin-bottom: 81px;;
+    color: aliceblue;
+}
+
+/*Ajuste dos ELementos dos cards*/
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15%;
+}
+
+.flex-container p{
+    font-size: 26px;
+}
+
+/*Interação dos cards com o mouse*/
+.card:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.card {
+    width: 30%;
+}
+.card-deck{
+    column-gap: 5%;
+}
+
+.alinhamentok {
+    margin-left: 35%; 
+    margin-right: 22%;
+}
+
+/*Interação de mudança de tema*/
+
+
+.lightMode{
+    background: radial-gradient(circle at 1629px, #cc4700, #cc4700 70%, #eeee 30%) ;
+    
+}
+
+.lightMode ul{
+    background-color:hsl(21, 100%, 40%, 0.1);
+
+}
+
+.lightMode li a, .lightMode #icone-claro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #455280 ;
+    padding: 15%;
+    text-align: center;
+}
+
+.lightMode li a:hover,
+.about:hover, #icone-claro:hover{
+    background-color: #455280;
+    color: #eeee;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+
+/*RESPONSIVIDADE*/
+
+/*Se a tela for menor que 1629 pixels*/
+@media (max-width: 1629px) {
+    .flex-container {
+      flex-direction: column;
+    }
+    
+  }
+
+/*Se a tela for menor que 768 pixels*/
+@media screen and (max-width: 768px) {
+    .card {
+        width: 47.5%;
+    }
+
+    .card-deck{
+        column-gap: 5%;
+    }
+    .alinhamentok {
+        margin: 0 0 0 0;
+    }
+
+    body{
+        background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) ;
+        
+    }
+
+    .lightMode{
+        background: radial-gradient(circle at center top, #cc4700, #cc4700 40%, #eeee 30%) ;
+        
+    }
+}
+
+/*Se a tela for menor que 576 pixels*/
+@media screen and (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+    .alinhamentok {
+        
+    }
+
+    body{
+        background: linear-gradient(to bottom,#455280 15%, #333 15%);
+        
+    }
+
+    /*Interação de mudança de tema*/
+    .lightMode{
+        background: linear-gradient(to bottom, #cc4700, #cc4700 15%, #eeee 15%) ;
+        
+    }
+
+}
+
+
