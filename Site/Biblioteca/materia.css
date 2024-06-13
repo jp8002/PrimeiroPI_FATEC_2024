@@ -1,7 +1,7 @@
 /*ESTILIZAÇÃO DA PÁGINA*/
 
 body{
-    background: radial-gradient(circle at 1629px, #455280, #455280 70%, #333 30%) ;
+    background: radial-gradient(circle at 1629px, #445AA8, #445AA8 70%, #333 30%) ;
     
 }
 
@@ -57,30 +57,8 @@ img{
 
 
 .lightMode{
-    background: radial-gradient(circle at 1629px, #cc4700, #cc4700 70%, #eeee 30%) ;
+    background: radial-gradient(circle at 1629px, #FCA77A, #FCA77A 70%, #eeee 30%) ;
     
-}
-
-.lightMode ul{
-    background-color:hsl(21, 100%, 40%, 0.1);
-
-}
-
-.lightMode li a, .lightMode #icone-claro {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    color: #455280 ;
-    padding: 15%;
-    text-align: center;
-}
-
-.lightMode li a:hover,
-.about:hover, #icone-claro:hover{
-    background-color: #455280;
-    color: #eeee;
-    text-decoration: none;
-    border-radius: 0px 10px 10px 0px;
 }
 
 
@@ -109,12 +87,12 @@ img{
     }
 
     body{
-        background: radial-gradient(circle at center top, #455280, #455280 30%, #333 30%) ;
+        background: radial-gradient(circle at center top, #445AA8, #445AA8 30%, #333 30%) ;
         
     }
 
     .lightMode{
-        background: radial-gradient(circle at center top, #cc4700, #cc4700 40%, #eeee 30%) ;
+        background: radial-gradient(circle at center top, #FCA77A, #FCA77A 40%, #eeee 30%) ;
         
     }
 }
@@ -129,13 +107,13 @@ img{
     }
 
     body{
-        background: linear-gradient(to bottom,#455280 15%, #333 15%);
+        background: linear-gradient(to bottom,#445AA8 15%, #333 15%);
         
     }
 
     /*Interação de mudança de tema*/
     .lightMode{
-        background: linear-gradient(to bottom, #cc4700, #cc4700 15%, #eeee 15%) ;
+        background: linear-gradient(to bottom, #FCA77A, #FCA77A 15%, #eeee 15%) ;
         
     }
 
