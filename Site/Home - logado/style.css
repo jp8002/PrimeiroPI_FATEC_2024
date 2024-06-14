@@ -1,0 +1,324 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif,;
+    background-color:#445AA8;
+}
+
+
+
+/* interação com Javascript */
+
+.lightMode {
+    background-color:#DF7942;
+}
+
+.lightMode .cabecalho{
+    background-color: #DF7942;
+}
+
+.lightMode ul {
+    background-color: hsl(21, 100%, 40%, 0.1);
+
+}
+
+.lightMode li a,
+.lightMode #icone-claro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color:#445AA8;
+    padding: 15%;
+    text-align: center;
+}
+
+.lightMode li a:hover,
+.about:hover,
+#icone-claro:hover {
+    background-color: #445AA8;
+    color: #eeee;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* Fim da interação */
+
+.perfil {
+    overflow: auto;
+    display: flex;
+}
+
+.usuario {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    display: inline-block;
+    border-right: 2px solid black;
+}
+
+.usuario img {
+    height: 200px;
+    border-radius: 90px;
+    z-index: 1000;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: block;
+    padding-left: 60px;
+}
+
+.usuario h1,
+h2 {
+    padding-top: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.estatistica h3{
+    background-color: hwb(0 100% 0%);
+    padding-left: 3%;
+}
+
+.estatistica {
+    height: 500px;
+    width: 76.5%;
+    background-color: hwb(0 100% 0%);
+    position: relative;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#chart-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;  
+}
+
+.card {
+    margin: 30px;
+    margin-left: 7%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 750px;
+    border-radius: 20px;
+    max-width: 1500px;
+    z-index: 1000;
+}
+
+.card h1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #333;
+    font-size: 32px;
+    border-radius: 20px 20px 0px;
+    color: #04A777;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    border-radius: 100px;
+    z-index: 1000;
+}
+
+.card p {
+    font-size: 18px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.carousel.slide {
+    max-width: 2000px;
+    align-content: center;
+    margin-left: 80px;
+    margin-top: 50px;
+    z-index: 1000;
+}
+
+.carousel-inner {
+    height: 500px;
+    display: inline-block;
+    max-width: 2000px;
+    align-content: center;
+    z-index: 1000;
+}
+
+.card-2{
+    margin: 30px;
+    margin-left: 7%;
+    background-color: rgb(255, 255, 255,0.5);
+    height: 800px;
+    border-radius: 20px;
+
+    max-width: 1500px;
+}
+.card-2 img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border-radius: 100px;
+    border: 6px solid #445AA8;
+    overflow: hidden;
+}
+.card-2 h2{
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255,0.0);
+}
+
+.card-2 p{
+    padding-top: 20px;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    z-index: 1000;
+    margin-bottom: -20px;
+}
+
+footer h2 {
+    padding: 20px 0px 20px 20px;
+    background-color: rgb(50, 50, 50);
+    z-index: 1000;
+}
+
+footer p {
+    padding: 5px 0px 20px 20px;
+    z-index: 1000;
+}
+
+@media only screen and (max-width:768px) {
+
+    .perfil {
+        display: flex;
+        overflow: auto;
+        position: relative;
+        height: 600px;
+    }
+
+    .usuario {
+        min-width: 90%;
+        height: 300px;
+        display: block;
+        align-content: center;
+        border-radius: 10px 10px 10px 10px;
+        position: relative;
+    }
+
+    .usuario img,
+    h1 {
+        padding-left: 100px;
+    }
+
+    .usuario h2 {
+        text-align: center;
+    }
+
+    .estatistica {
+        display: block;
+        border-radius:  0px 0px 10px 10px;
+        max-width: 90%;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        height: 200px;
+        float: left;
+        background-color: rgb(255, 255, 255, 0.5);
+    }
+
+    #myChart{
+        width: 90%;
+        background-color:  rgb(255, 255, 255, 0.5);
+    }
+
+    .card{
+        height: 800px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .card p{
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 18px;
+    }
+
+    .carousel.slide {
+        height: auto;
+       width: 100%;
+       margin-left: 0px;
+    }
+
+    .carousel-inner{
+        height: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .card-2 {
+        width: 100%;
+        height: 1600px;
+        margin-left: 0px;
+    }
+
+    .card-2{
+        width: 100%;
+        height: 1600px;
+        margin-left: 0;
+        border: none;
+    }
+
+    .card-2 h2{
+        padding-left: 10px;
+        color: green;
+    }
+
+    .card-2 p{
+        padding-left: 20px;
+    }
+
+    .card-2 .fac-2{
+        padding-top: 200px;
+    }
+
+    .card-2 .fac-3{
+        padding-top: 200px;
+        padding-bottom: 20px;
+    }
+
+    footer {
+        margin-left: 0px;
+    }
+
+    footer p {
+        padding-bottom: 25px;
+    }
+    footer .ultimo{
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .card-2{
+        height: 2000px;
+    }
+}
