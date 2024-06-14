@@ -33,6 +33,28 @@ ul {
     border-radius: 0px 10px 10px 0px;
 }
 
+.lightMode ul{
+    background-color:hsl(21, 100%, 40%, 0.1);
+
+}
+
+.lightMode li a, .lightMode #icone-claro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #919ECA ;
+    padding: 15%;
+    text-align: center;
+}
+
+.lightMode li a:hover,
+.about:hover, #icone-claro:hover{
+    background-color: #919ECA;
+    color: #eeee;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
 li a, #icone-escuro {
     text-decoration: none;
     display: block;
