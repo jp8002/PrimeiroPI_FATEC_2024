@@ -16,7 +16,6 @@ h6 {
     margin: 0;
 }
 
-
 #nav {
     float: left;
     height: 100vh;
@@ -24,34 +23,12 @@ h6 {
 }
 
 ul {
-    background-color: rgba(5, 37, 214, 0.051);
+    background-color: #243059;
     list-style-type: none;
     padding: 0;
     min-height: 100%;
     width: 80px;
     position: fixed;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.lightMode ul{
-    background-color:hsl(21, 100%, 40%, 0.1);
-
-}
-
-.lightMode li a, .lightMode #icone-claro {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    color: #919ECA ;
-    padding: 15%;
-    text-align: center;
-}
-
-.lightMode li a:hover,
-.about:hover, #icone-claro:hover{
-    background-color: #919ECA;
-    color: #eeee;
-    text-decoration: none;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -64,7 +41,9 @@ li a, #icone-escuro {
     text-align: center;
 }
 
-
+.comeco{
+    padding-bottom: 25px;
+}
 
 .baixo {
     display: flex;
@@ -88,17 +67,15 @@ li a, #icone-escuro {
 
 li a:hover,
 .about:hover, #icone-escuro:hover {
-    background-color: rgb(255, 141, 27);
-    color: #333;
+    background-color: #DF7942;
+    color: #445AA8;
     text-decoration: none;
     border-radius: 0px 10px 10px 0px;
 }
 
 .cabecalho {
-    border-bottom: 2px solid rgb(255, 161, 20);
     text-align: center;
     padding: 5px;
-    background-color: white;
 }
 
 @media only screen and (max-width:768px) {
@@ -108,25 +85,36 @@ li a:hover,
     }
 
     .navbar {
-        background-color: blue;
+        background-color: #243059;
         visibility: visible;
-        width: 100%;   
+        width: 100%;
         height: 50px; 
         padding: 0;
         border-radius: 10px 10px 10px 10px;
-
-    }
-    .icones .fa-solid:hover,
-    .final:hover {
-        border-left: 2px solid rgb(255, 161, 20);
-        border-right: 2px solid rgb(255, 161, 20);
         text-decoration: none;
+        justify-content: space-between;
     }
+
     .icones .fa-solid{
         margin-right: 20px;
+        color:#DF7942;
+        padding-bottom: 0px;
     }
-    .final{
-        right: 0;
-        justify-content: space-between; 
+
+    .icones .fa-solid:hover {
+        text-decoration: none;
+        background-color: #DF7942;
+        color:  #445AA8 ;
+    }
+
+    .final, .fa-solid{
+        text-decoration: none;
+        color: #DF7942;
+    }
+
+    .final .fa-solid:hover{
+        background-color: #DF7942;
+        color:  #445AA8;
+        text-decoration: none;
     }
 }
