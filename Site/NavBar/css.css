@@ -32,11 +32,30 @@ ul {
     border-radius: 0px 10px 10px 0px;
 }
 
-li a, #icone-escuro {
+.lightMode ul {
+    background-color: #FCB48D;
+    list-style-type: none;
+    padding: 0;
+    min-height: 100%;
+    width: 80px;
+    position: fixed;
+    border-radius: 0px 10px 10px 0px;
+}
+
+li a, #icone-escuro, #icone-claro {
     text-decoration: none;
     display: block;
     width: 100%;
-    color: #cc4700 ;
+    color: #FFAF85 ;
+    padding: 15%;
+    text-align: center;
+}
+
+.lightMode li a, #icone-claro {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #243059 ;
     padding: 15%;
     text-align: center;
 }
@@ -66,9 +85,17 @@ li a, #icone-escuro {
 
 
 li a:hover,
-.about:hover, #icone-escuro:hover {
-    background-color: #DF7942;
-    color: #445AA8;
+.about:hover, #icone-escuro:hover{
+    background-color: #FFAF85;
+    color: #243059;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.lightMode li a:hover,
+.about:hover, #icone-claro:hover {
+    background-color: #243059;
+    color: #FCB48D;
     text-decoration: none;
     border-radius: 0px 10px 10px 0px;
 }
@@ -97,24 +124,22 @@ li a:hover,
 
     .icones .fa-solid{
         margin-right: 20px;
-        color:#DF7942;
+        color:#FFAF85;
         padding-bottom: 0px;
     }
 
     .icones .fa-solid:hover {
         text-decoration: none;
-        background-color: #DF7942;
-        color:  #445AA8 ;
+        opacity: 85%;
     }
 
-    .final, .fa-solid{
+    .final .fa-solid{
         text-decoration: none;
-        color: #DF7942;
+        color: #FFAF85;
     }
 
     .final .fa-solid:hover{
-        background-color: #DF7942;
-        color:  #445AA8;
         text-decoration: none;
+        opacity: 85%;
     }
 }
