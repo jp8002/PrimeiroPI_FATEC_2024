@@ -6,10 +6,9 @@ body{
 }
 
 
-
 /*Controla ao proporções da imagem*/
 img{
-    width: 102px;
+    width: 250px;
     height: 89px;
 }
 
