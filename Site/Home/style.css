@@ -151,13 +151,29 @@ footer{
 }
 
 footer h2{
-    padding: 20px 0px 20px 20px;
+    padding: 0px 0px 20px 20px;
     background-color: rgb(50, 50, 50);
+    margin: 0;
 }
 
 footer p{
-    padding: 5px 0px 20px 20px;
+    font-size: 22px;
 }
+
+footer .fa-instagram{
+    margin: 10px 10px 10px 30%;
+}
+
+footer i p{
+    font-size: 20px;
+}
+
+footer .fa-brands{
+    margin-top: 25px;
+    margin-right: 15px;
+    
+}
+
 /*Fim do footer */
 
 /*Resposividade */
