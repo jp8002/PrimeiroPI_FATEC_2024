@@ -68,19 +68,24 @@ h6 {
 .card {
     margin: 30px;
     margin-left: 7%;
-    background-color: rgb(255, 255, 255,0.5);
-    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 750px;
     border-radius: 20px;
-    max-width: 1500px;
+    width: 90%;
+    z-index: 1000;
 }
 
 .card h1 {
     text-align: center;
+    background-color: rgb(255, 255, 255);
     border-bottom: #333;
     font-size: 32px;
-    padding-bottom: 15px;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255,0.7);
+    border-radius: 20px 20px 0px;
+    color: #04A777;
+    z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .card img {
@@ -88,12 +93,13 @@ h6 {
     width: 200px;
     align-self: center;
     border-radius: 100px;
+    z-index: 1000;
 }
 
 .card p {
     font-size: 18px;
-    text-align: justify;
     text-align: center;
+    z-index: 1000;
 }
 /*Fim do Card 1 */
 
@@ -120,8 +126,7 @@ h6 {
     background-color: rgb(255, 255, 255,0.5);
     height: 800px;
     border-radius: 20px;
-    border: 2px solid orange;
-    max-width: 1500px;
+    width: 90%;
 }
 .card-2 img{
     float: left;
@@ -129,14 +134,13 @@ h6 {
     width: 200px;
     margin: 100px;
     border-radius: 100px;
-    border: 2px solid black;
+    border: 6px solid #445AA8;
     overflow: hidden;
 }
 .card-2 h2{
     padding-top: 100px;
     background-color: rgb(255, 255, 255,0.0);
 }
-
 .card-2 p{
     padding-top: 20px;
 }
@@ -171,7 +175,19 @@ footer i p{
 footer .fa-brands{
     margin-top: 25px;
     margin-right: 15px;
-    
+    display: flex;
+    overflow: auto;
+}
+
+.social{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.soc{
+    margin-left: 35%;
 }
 
 /*Fim do footer */
@@ -227,6 +243,28 @@ footer .fa-brands{
     }
 
     footer .ultimo{
+        padding-bottom: 15px;
+    }
+
+    footer .fa-brands{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 28px;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .soc{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .soc-ult{
         padding-bottom: 15px;
     }
 }

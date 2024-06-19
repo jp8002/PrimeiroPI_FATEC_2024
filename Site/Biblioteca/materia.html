@@ -6,7 +6,7 @@
     <title>Biblioteca</title>
     
     <script src="https://kit.fontawesome.com/cc7beb20bf.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../NavBar/css.css">
+    <link rel="stylesheet" href="../Navbar/css.css">
     <link rel="stylesheet" href="./materia.css">
     <link rel="stylesheet" href="./bootstrap.css">
 
@@ -17,9 +17,9 @@
   <div id="nav">
     <ul class="teste">
         <div>
-            <li><a href="../Home/index.html" class="fa-solid fa-house-user fa-2x"></a></li>
+            <li><a href="../index.html" class="fa-solid fa-house-user fa-2x"></a></li>
             <hr>
-            <li><a href="../Biblioteca/materia.html" class="fa-solid fa-book item fa-2x"></a></li>
+            <li><a href="materia.html" class="fa-solid fa-book item fa-2x"></a></li>
             <hr>
         </div>
 
@@ -33,18 +33,18 @@
 
   <!--Navbar em baixo-->
   <nav class=" mx-auto navbar fixed-bottom navbar-light " >
-      <div class="icones">
-          <a href="../Home/index.html" class="fa-solid fa-house-user fa-2x" ></a>
-          <a href="#" class="fa-solid fa-book item fa-2x" ></a>
+    <div class="icones">
+        <a href="../index.html" class="fa-solid fa-house-user fa-2x" ></a>
+        <a href="materia.html" class="fa-solid fa-book item fa-2x" ></a>
+    </div>
+    <div class="final dropup">
+      <a href="#home" class="fa-solid fa-gear item fa-2x dropbtn" onclick="settings()" ></a>
+      <div class="dropup-content" id="troca">
+        <i onclick="lightMode(),settings()" class="fa-solid fa-sun" id="icone-claro-inferior"> Claro</i> 
+        <i onclick="darkMode(),settings()" class="fa-solid fa-moon" id="icone-escuro-inferior"> Escuro</i> 
       </div>
-      <div class="final dropup">
-        <a href="#" class="fa-solid fa-gear item fa-2x dropbtn" onclick="settings()" ></a>
-        <div class="dropup-content" id="troca">
-          <i onclick="lightMode(),settings()" class="fa-solid fa-sun" id="icone-claro-inferior"> Claro</i> 
-          <i onclick="darkMode(),settings()" class="fa-solid fa-moon" id="icone-escuro-inferior"> Escuro</i> 
-        </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
   
   <div class="row">
     <!--Criação dos cards de matéria-->
@@ -176,8 +176,6 @@
       
     </div>
   </div>
-
-
 
     <script src="../scripts/nosso.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
