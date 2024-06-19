@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal - NL</title>
+  <script src="https://kit.fontawesome.com/cc7beb20bf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./Home/style.css">
+  <LINK rel="stylesheet" href="./NavBar/css.css">
+</head>
+<body>
+
+  <!--Navbar lateral-->
+  <div id="nav">
+    <ul class="teste">
+        <div>
+            <li><a href="index.html" class="fa-solid fa-house-user fa-2x"></a></li>
+            <hr>
+            <li><a href="./Biblioteca/materia.html" class="fa-solid fa-book item fa-2x"></a></li>
+            <hr>
+        </div>
+
+        <div class="baixo">
+            <li><i onclick="darkMode()" class="fa-solid fa-sun fa-2x" id="icone-claro"></i></li>
+            <li><i onclick="lightMode()" class="fa-solid fa-moon fa-2x" id="icone-escuro"></i> </li>
+            <li><a href="#home" class="fa-solid fa-gear item fa-2x"></a></li>
+        </div>
+    </ul>
+  </div>
+
+  <!--Navbar em baixo-->
+  <nav class=" mx-auto navbar fixed-bottom navbar-light " >
+      <div class="icones">
+          <a href="index.html" class="fa-solid fa-house-user fa-2x" ></a>
+          <a href="./Biblioteca/materia.html" class="fa-solid fa-book item fa-2x" ></a>
+      </div>
+      <div class="final dropup">
+        <a href="#home" class="fa-solid fa-gear item fa-2x dropbtn" onclick="settings()" ></a>
+        <div class="dropup-content" id="troca">
+          <i onclick="lightMode(),settings()" class="fa-solid fa-sun" id="icone-claro-inferior"> Claro</i> 
+          <i onclick="darkMode(),settings()" class="fa-solid fa-moon" id="icone-escuro-inferior"> Escuro</i> 
+        </div>
+      </div>
+    </nav>
+
+  <!--Cabeçalho-->
+  <h1 class="cabecalho">
+    <img src="./IMG/logo.png" alt="Genealiza">
+    <button class="cadastro"><a href="./cadastro/cadastro.html">Cadastrar</a></button>
+  </h1>
+
+
+  <!--Primeiro Card-->
+  <div class="card">
+    <h1> Sobre Nós</h1>
+    <img
+      src="../IMG/minilogo3.png">
+    <hr>
+    <p>Somos o Genealiza um site para apoio das disciplinas escolares, nosso site é totalmente gratuito e de facil uso.
+    </p>
+  </div>
+<!--Fim do Card-->
+
+<!--Carrosel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./IMG/fatec-v2.png" alt="Fatce Araras">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./IMG/Unicamp-v2.png" alt="Unicamp">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./IMG/unesp-v2.png" alt="Unesp">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--Fim do Carrosel-->
+
+  <!--Começo do segundo Card-->
+  <div class="card-2">
+    <div class="fac-1">
+    <img src="./IMG/fatec.jpg"> 
+    <a href="https://fatecararas.cps.sp.gov.br/"></a>
+    <h2>Fatec Araras:</h2>
+    <p>A Melhor Faculdade de Tecnologia da Região.</p>
+    </div>
+
+    <div class="fac-2">
+    <img src="./IMG/unesp.png">
+    <a href="https://vestibular.unesp.br/"></a>
+    <h2>Unesp</h2>
+    <p> por muitos considerada uma das melhores Faculdades.</p>
+    </div>
+
+    <div class="fac-3">
+    <img src="./IMG/Unicamp.jpg">
+    <h2>Unicamp</h2>
+    <p>Uma das melhores faculdades de tecnologia de São Paulo</p>
+    </div>
+  </div>
+  <!--Fim do Segundo Card-->
+
+  <!--Footer-->
+  <footer>
+    <div class="flex-container">
+      <h2>Grupo do PI 2:</h2>
+
+      <div class="row mx-auto">
+        <div class="col-4">
+          <p>PO: Kaua Tangerina</p>
+          <p>Designer: Davi Bonelli</p>
+        </div>
+      
+        <div class="col-4">
+          <p>Requisitos: Adinam Conte</p>
+          <p>Diagrama: Vitor Eduardo</p>
+        </div>
+      
+        <div class="col-4">
+          <p>Programação: João Pedro</p>
+          <div class="ultimo">
+          <p>Programação: Gustavo Habermann</p>
+        </div>
+      </div>
+      </div>   
+    </div>
+
+    <div class="mx-auto">
+      <div class="social soc">
+          <i class="fa-brands fa-whatsapp fa-2x"><p>  (19)812345678</p></i>
+          <i class="fa-brands fa-youtube fa-2x"><p>  @Genealiza</p></i>
+      </div>
+  
+      <div class="social">
+       <i class="fa-brands fa-facebook fa-2x"><p>  @Genealiza</p></i>
+       <div class="soc-ult">
+        <i class="fa-brands fa-twitter fa-2x"><p>  @Genealiza</p></i>
+       </div>
+     </div>
+    </div>
+  </footer>
+
+  <script src="./scripts/nosso.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
